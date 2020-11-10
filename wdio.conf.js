@@ -1,3 +1,4 @@
+
 exports.config = {
     //
     // ====================
@@ -128,7 +129,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
+reporters: [['allure',{
+        outputDir:'allure-results',
+        disabledWebdriverStepReporting:true,
+        disabledWebdriverScreenshotReporting:false,
+    }]],
 
 
     //
@@ -277,8 +282,8 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    onComplete: function(exitCode, config, capabilities, results) {
+    },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "When I login with tomsmith and SuperSecretPassword!",
+    "uid" : "d2db6460157e6ca6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042880329,
+      "stop" : 1605042881306,
+      "duration" : 977
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  }, {
+    "name" : "Then I should see a flash message saying You logged into a secure area!",
+    "uid" : "7527fc5194eeff0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042881306,
+      "stop" : 1605042881386,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  }, {
+    "name" : "Given I am on the login page",
+    "uid" : "47c42050c7fa25a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042881400,
+      "stop" : 1605042881779,
+      "duration" : 379
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  }, {
+    "name" : "When I login with foobar and barfoo",
+    "uid" : "dfa0890e5e5ca1c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042881779,
+      "stop" : 1605042884811,
+      "duration" : 3032
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  }, {
+    "name" : "Then I should see a flash message saying Your username is invalid!",
+    "uid" : "192d2c71f70a8a9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042884811,
+      "stop" : 1605042884875,
+      "duration" : 64
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "db3556a8cf2f7ff2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605042884875,
+      "stop" : 1605042884875,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.183" ]
+  } ]
+}
